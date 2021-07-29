@@ -1,0 +1,116 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: IBM Plex Sans, Helvetica, Arial, sans-serif;
+  margin: 0;
+}
+.header {
+  padding: 2rem;
+  text-align: center;
+  background-color: #60D0C8;
+  color: black;
+}
+.header h1 {
+  font-family: 'Italiana', serif;
+  font-size: 7rem;
+  margin: 4rem auto 2rem auto;
+  font-weight: 100;
+}
+.description {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin-bottom: 4rem
+}
+.navbar {
+  overflow: hidden;
+  background-color: #60D0C8;
+  padding: 0.25rem 0;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+  margin: auto 0.5rem;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  border-radius: 2rem;
+  color: black;
+}
+.row {}
+.main {
+  width: 100%;
+  background-color: white;
+  padding: 4rem 7rem;
+}
+.resume, .porfolio, .about {
+  border-bottom: 1px solid black;
+  width: 100%;
+  margin-bottom: 2rem;
+  padding-bottom: 2rem;
+}
+.sub-header {
+  font-family: 'Italiana', serif;
+  font-size: 2rem;
+}
+.resume, .aboutContent {
+  display: flex;
+  padding: 2rem 3rem;
+}
+.aboutInfo {
+  display: flex;
+  flex-basis: 65%;
+}
+.info {
+  margin: auto;
+  letter-spacing: 1px;
+}
+.aboutImg {
+  flex-basis: 35%;
+  text-align: center;
+}
+.icon {
+  flex-basis: 30%;
+  text-align: center;
+}
+.porfolioContent {
+  padding: 2rem 3rem;
+}
+.resumeContent {
+  display: flex;
+  flex-basis: 70%;
+  font-family: 'Italiana', serif;
+  font-size: 2rem;
+}
+.resumeLink {
+  margin: auto 0rem auto 2rem;
+}
+.resumeLink a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+.resumeLink a:hover {
+  font-weight: bold;
+}
+.footer {
+  padding: 20px;
+  background: #60D0C8;
+}
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
