@@ -64,6 +64,7 @@ body {
 .aboutInfo {
   display: flex;
   flex-basis: 65%;
+  padding-right: 5rem;
 }
 .info {
   margin: auto;
@@ -80,6 +81,9 @@ body {
 .porfolioContent {
   padding: 2rem 3rem;
 }
+.comingSoon {
+  font-style: italic;
+}
 .resumeContent {
   display: flex;
   flex-basis: 70%;
@@ -92,10 +96,12 @@ body {
 .resumeLink a {
   text-decoration: none;
   color: black;
+  padding: 0.75rem 1.5rem;
   cursor: pointer;
 }
 .resumeLink a:hover {
-  font-weight: bold;
+  background-color: #ddd;
+  border-radius: 2rem;
 }
 .footer {
   padding: 20px;

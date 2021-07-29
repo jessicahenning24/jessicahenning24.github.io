@@ -12,9 +12,9 @@
 <body>
 
   <div class="navbar">
-    <div class="navLink"><a href="#">About</a></div>
-    <div class="navLink"><a href="#">Portfolio</a></div>
-    <div class="navLink"><a href="#">Resume</a></div>
+    <div class="navLink"><a href="#about">About</a></div>
+    <div class="navLink"><a href="#portfolio">Portfolio</a></div>
+    <div class="navLink"><a href="#resume">Resume</a></div>
   </div>
 
   <div class="header">
@@ -25,7 +25,7 @@
   <div class="row">
     <div class="main">
 
-      <div class="resume">
+      <div class="resume" id="resume">
         <div class="icon">
           <object data="resumeIcon.svg" type="image/svg+xml"></object>
         </div>
@@ -34,19 +34,28 @@
         </div>
       </div>
 
-      <div class="porfolio">
+      <div class="porfolio" id="portfolio">
         <div class="sub-header">Portfolio</div>
-        <!-- <div class="porfolioContent">
-          <img src="loginPage.png" alt="LoginPage" width="300" height="225">
-          <img src="loginPageSmall.png" alt="LoginPageSmall" width="150" height="225">
-        </div> -->
+        <div class="porfolioContent">
+          <div class="comingSoon">Coming Soon...</div>
+          <!-- <img src="loginPage.png" alt="LoginPage" width="300" height="225"> -->
+          <!-- <img src="loginPageSmall.png" alt="LoginPageSmall" width="150" height="225"> -->
+        </div>
       </div>
 
-      <div class="about">
+      <div class="about" id="about">
         <div class="sub-header">About Me</div>
         <div class="aboutContent">
           <div class="aboutInfo">
-            <div class="info">Hi, I'm Jess! I'm a frontend developer in Missoula, MT.</div>
+            <div class="info">
+              Hi, I'm Jess! I'm a frontend developer in Missoula, Montana.
+              <br />
+              <br />
+              I graduated with my Master of Science in Computer Science in May 2020. I enjoy designing and implementing user interfaces with React, Javascript, HTML, & CSS.
+              <br />
+              <br />
+              In my free time I like to hike around Montana, paint, & hang out with my golden retriever, Rae.
+            </div>
           </div>
           <div class="aboutImg">
             <object data="me.svg" type="image/svg+xml"></object>
